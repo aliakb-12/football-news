@@ -21,6 +21,6 @@ app_name = 'main'
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("main.urls")),  # include the app
+    path("", include("main.urls")), 
 ]
 
